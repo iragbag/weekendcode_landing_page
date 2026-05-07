@@ -1,0 +1,80 @@
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px var(--shadow-card);
+}
+
+.body {
+  flex: 1;
+  margin-bottom: 1.25rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 0.5rem;
+  text-transform: capitalize;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  font-size: 0.825rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.btnPrimary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btnPrimary:hover {
+  background: var(--accent-hover);
+}
+
+.btnGhost {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
+.btnGhost:hover {
+  border-color: var(--accent);
+  color: var(--text-primary);
+}
+
+.btnDisabled {
+  background: transparent;
+  color: var(--text-disabled);
+  border: 1px solid var(--border);
+  cursor: default;
+}
