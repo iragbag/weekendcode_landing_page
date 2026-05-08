@@ -20,7 +20,7 @@ export const repos: Repo[] = [
     demoUrl: "https://www.weekendco.de",
   },
   {
-    name: "Second Brain",
+    name: "Second Brain - Backend",
     description: "A simple API hub for managing and exposing REST endpoints for a second brain",
     repoUrl: "https://github.com/iragbag/second_brain",
     demoUrl: "https://api.weekendco.de",
