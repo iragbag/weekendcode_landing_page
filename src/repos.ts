@@ -25,6 +25,12 @@ export const repos: Repo[] = [
     repoUrl: "https://github.com/iragbag/second_brain",
     demoUrl: "https://api.weekendco.de",
   },
+  {
+    name: "Implement Tag Manager v1",
+    description: "A simple and lightweight tag management solution built to deploy Analytics and Marketing pixels on the website",
+    repoUrl: "https://github.com/iragbag/implement_tag_manager",
+    demoUrl: "N/A"
+  }
   // Add more repos below — copy one of the blocks above as a template:
   // {
   //   name: "My Cool Tool",
